@@ -1,0 +1,48 @@
+.anim {
+  width: 100%;
+}
+
+.animation {
+  height: 100%;
+}
+
+.anim a:nth-child(1) {
+  width: 20% !important;
+}
+
+.start-home {
+  width: 0;
+  right: 10%;
+}
+
+.anim a:nth-child(1):hover ~ .animation {
+  width: 20% !important;
+  right: 10% !important;
+}
+
+.anim a:nth-child(2) {
+  width: 20% !important;
+}
+
+.anim a:nth-child(2):hover ~ .animation {
+  width: 20% !important;
+  right: 30% !important;
+}
+
+.anim a:nth-child(3) {
+  width: 20% !important;
+}
+
+.anim a:nth-child(3):hover ~ .animation {
+  width: 20% !important;
+  right: 50% !important;
+}
+
+.anim a:nth-child(4) {
+  width: 20% !important;
+}
+
+.anim a:nth-child(4):hover ~ .animation {
+  width: 20% !important;
+  right: 70% !important;
+}

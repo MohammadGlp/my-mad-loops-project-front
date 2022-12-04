@@ -1,0 +1,202 @@
+#fogotLogo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#fogotLogo #circle {
+  stroke-dasharray: 750px;
+  stroke-dashoffset: 750px;
+  animation: dash-anim 3.5s ease forwards 0.7s;
+}
+#fogotLogo #circle2 {
+  stroke-dasharray: 750px;
+  stroke-dashoffset: 750px;
+  animation: dash-anim 3.5s ease forwards 0.7s;
+  animation: fillOne 15s ease forwards;
+}
+
+#fogotLogo #circle3 {
+  stroke-dasharray: 550px;
+  stroke-dashoffset: 550px;
+  animation: dash-anim 3.5s ease forwards 0.7s;
+}
+
+#fogotLogo #circle4 {
+  stroke-dasharray: 550px;
+  stroke-dashoffset: 550px;
+  animation: dash-anim 3.5s ease forwards 0.7s;
+  animation: fillTwo 15s ease forwards;
+}
+
+#fogotLogo #circle5 {
+  stroke-dasharray: 414px;
+  stroke-dashoffset: 414px;
+  animation: dash-anim 3.5s ease forwards 0.7s;
+}
+#fogotLogo #circle6 {
+  stroke-dasharray: 414px;
+  stroke-dashoffset: 414px;
+  animation: dash-anim 3.5s ease forwards 0.7s;
+  animation: fillFour 15s ease forwards;
+}
+
+#fogotLogo #circle7 {
+  stroke-dasharray: 420px;
+  stroke-dashoffset: 420px;
+  animation: dash-anim 3.5s ease forwards 0.7s;
+}
+
+#fogotLogo #circle8 {
+  stroke-dasharray: 420px;
+  stroke-dashoffset: 420px;
+  animation: dash-anim 3.5s ease forwards 0.7s;
+  animation: fillFour 15s ease forwards;
+}
+
+#fogotLogo #little-cik {
+  stroke-dasharray: 314px;
+  stroke-dashoffset: 314px;
+  animation: dash-anim 3.5s ease forwards 0.7s;
+}
+
+#fogotLogo #little-cik2 {
+  stroke-dasharray: 314px;
+  stroke-dashoffset: 314px;
+  animation: dash-anim 3.5s ease forwards 0.7s;
+  animation: fillThree 15s ease forwards;
+}
+
+@keyframes dash-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fillOne {
+  to {
+    fill: #ecfdf3;
+  }
+}
+
+@keyframes fillTwo {
+  to {
+    fill: #D1F9DE;
+  }
+}
+
+@keyframes fillThree {
+  to {
+    fill: #00c9a3;
+  }
+}
+
+@keyframes fillFour {
+  to {
+    fill: #00c9a3;
+  }
+}
+
+//dark
+
+#forgetdark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#forgetdark #circle {
+  stroke-dasharray: 750px;
+  stroke-dashoffset: 750px;
+  animation: dashdarkanim 3.5s ease forwards 0.7s;
+}
+#forgetdark #circle2 {
+  stroke-dasharray: 750px;
+  stroke-dashoffset: 750px;
+  animation: dashdarkanim 3.5s ease forwards 0.7s;
+  animation: fillOneDark 15s ease forwards;
+}
+
+#forgetdark #circle3 {
+  stroke-dasharray: 550px;
+  stroke-dashoffset: 550px;
+  animation: dashdarkanim 3.5s ease forwards 0.7s;
+}
+
+#forgetdark #circle4 {
+  stroke-dasharray: 550px;
+  stroke-dashoffset: 550px;
+  animation: dashdarkanim 3.5s ease forwards 0.7s;
+  animation: fillTwoDark 15s ease forwards;
+}
+
+#forgetdark #circle5 {
+  stroke-dasharray: 414px;
+  stroke-dashoffset: 414px;
+  animation: dashdarkanim 3.5s ease forwards 0.7s;
+}
+#forgetdark #circle6 {
+  stroke-dasharray: 414px;
+  stroke-dashoffset: 414px;
+  animation: dashdarkanim 3.5s ease forwards 0.7s;
+  animation: fillFourDark 15s ease forwards;
+}
+
+#forgetdark #circle7 {
+  stroke-dasharray: 420px;
+  stroke-dashoffset: 420px;
+  animation: dashdarkanim 3.5s ease forwards 0.7s;
+}
+
+#forgetdark #circle8 {
+  stroke-dasharray: 420px;
+  stroke-dashoffset: 420px;
+  animation: dashdarkanim 3.5s ease forwards 0.7s;
+  animation: fillFourDark 15s ease forwards;
+}
+
+#forgetdark #little-cik {
+  stroke-dasharray: 314px;
+  stroke-dashoffset: 314px;
+  animation: dashdarkanim 3.5s ease forwards 0.7s;
+}
+
+#forgetdark #little-cik2 {
+  stroke-dasharray: 314px;
+  stroke-dashoffset: 314px;
+  animation: dashdarkanim 3.5s ease forwards 0.7s;
+  animation: fillThreeDark 15s ease forwards;
+}
+
+@keyframes dashdarkanim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fillOneDark {
+  to {
+    fill: #2B2B2B;
+  }
+}
+
+@keyframes fillTwoDark {
+  to {
+    fill: #423F3E;
+  }
+}
+
+@keyframes fillThreeDark {
+  to {
+    fill: #00C9A3;
+  }
+}
+
+@keyframes fillFourDark {
+  to {
+    fill: #00C9A3;
+  }
+}
+

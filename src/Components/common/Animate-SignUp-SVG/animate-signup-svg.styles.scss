@@ -1,0 +1,51 @@
+#signLogo {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+
+#signLogo #roundStrock {
+  stroke-dasharray: 1273px;
+  stroke-dashoffset: 1273px;
+  animation: dash-anim 3.5s ease forwards 0.7s;
+}
+#signLogo #roundStrock2 {
+  stroke-dasharray: 1273px;
+  stroke-dashoffset: 1273px;
+  animation: dash-anim 3.5s ease forwards 0.7s;
+  animation: fill-one 15s ease forwards;
+}
+
+#signLogo #Tik {
+  stroke-dasharray: 812px;
+  stroke-dashoffset: 812px;
+  animation: dash-anim 3.5s ease forwards 0.7s;
+}
+
+#signLogo #Tik2 {
+  stroke-dasharray: 812px;
+  stroke-dashoffset: 812px;
+  animation: dash-anim 3.5s ease forwards 0.7s;
+  animation: fill-two 15s ease forwards;
+}
+
+
+@keyframes dash-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill-one {
+  to {
+    fill: #00C9A3;
+  }
+}
+
+@keyframes fill-two {
+  to {
+    fill: #422F7E;
+  }
+}
+

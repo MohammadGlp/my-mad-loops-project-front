@@ -1,0 +1,10 @@
+<svg id="Group_9" data-name="Group 9" xmlns="http://www.w3.org/2000/svg" width="360" height="200.525" viewBox="0 0 360 200.525">
+  <rect id="Rectangle_1" data-name="Rectangle 1" width="360" height="200.525" rx="9" fill="#534ee8"/>
+  <g id="Group_2" data-name="Group 2" transform="translate(118.968 32.484)">
+    <g id="Angular_full_color_logo">
+      <path id="Path_496" data-name="Path 496" d="M91.717,30h0L31.9,52.5l9.123,83.436,50.694,29.619h0l50.693-29.619L151.533,52.5Z" transform="translate(-31.9 -30)" fill="#dd0031"/>
+      <path id="Path_497" data-name="Path 497" d="M125,30v83.638h0v51.919h0l50.693-29.619L184.817,52.5Z" transform="translate(-65.183 -30)" fill="#c3002f"/>
+      <path id="Path_498" data-name="Path 498" d="M104.193,52.1,66.8,135.946H80.742l7.517-18.761H120l7.517,18.761h13.942Zm10.922,53.52H93.271l10.923-26.278Z" transform="translate(-44.377 -37.901)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
